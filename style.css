@@ -10,12 +10,15 @@
 }
 
 .body {
-    background-image: url(pattern-background-desktop.svg) ;
-    background-position:center;
+    .body {
+    background: url(pattern-background-desktop.svg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background-size: contain;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
     background-color: var(--Very-pale-blue);
+}
 }
 .container {
   width: 100%;
